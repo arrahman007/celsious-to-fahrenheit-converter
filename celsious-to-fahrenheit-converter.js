@@ -1,10 +1,10 @@
-// celsious-to-fahrenheit-converter ////
+// fahrenheit-to-celsious-converter ////
 
 function getCelcius(fahrenheit) {
     fahrenheit = (fahrenheit - 32) * 5 / 9;
     return fahrenheit;
 }
 
-let inputFromUser = 3;
-let fahrenheitResult = getCelcius(inputFromUser);
-console.log('Fahrenheit', fahrenheitResult);
+let inputFromUser = 1;
+let celsiousResult = getCelcius(inputFromUser);
+console.log('Fahrenheit', celsiousResult);
